@@ -1,0 +1,102 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "fees",
+      "patterns": [
+        "May i know the fee structure",
+        "What is the fee structure",
+        "Annual fee structure",
+        "Fees breakup"
+      ],
+      "responses": [
+        "Yes ! , here is the link "
+      ]
+    },
+    {
+      "tag": "school timing",
+      "patterns": [
+        "What is the school office timings? ?",
+        "What are the opening and closing timings of school office ?",
+        "Which all day office remains open?",
+        "What is the school studying hours ? ",
+        "What is the school dispersal timings? "
+      ],
+      "responses": [
+        "from 8 o clock"
+      ]
+    },
+    {
+      "tag": "form",
+      "patterns": [
+        "can i schedule a meeting with principal",
+        "can i schedule a meeting with school counselor",
+        "schedule a meeting"
+      ],
+      "responses": [
+        "yes , here is the form and we will contact you shortly"
+
+      ]
+    },
+
+
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    {
+      "tag": "graph",
+      "patterns": [
+        "what is the school result last year",
+        "can you show the academic performance of school",
+        "how well does the student perform in exams",
+        "show the board exam results of class 10 and 12",
+        "board exam performance of students"
+      ],
+      "responses": [
+        "you can analyze the result of our students with this graph"
+
+      ]
+    }
+
+  ]
+}
